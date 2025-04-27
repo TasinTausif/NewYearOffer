@@ -1,0 +1,311 @@
+main{
+    margin: 50px 140px;
+}
+
+/* Common designs */
+.red-color{
+    color: rgba(255, 0, 0, 1);
+}
+.font-inter{
+    font-family: "Inter";
+}
+.font-merriweather{
+    font-family: 'Merriweather';
+}
+
+/* Greetings section design */
+.greetings{
+    height: 750px;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(7, 2, 17, 0), rgba(7, 2, 17, 1)), url("/images/Banner Image.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+    color: white;
+}
+.greetings .greeting-subtitle{
+    font-size: 32px;
+    font-weight: 100;
+    margin: 0px 484px;
+}
+.greetings .greeting-title{
+    font-size: 72px;
+    font-weight: 700;
+    margin: 0px 484px;
+    text-align: center;
+}
+
+/* Discount section design */
+.discount{
+    margin: 0px 400px;
+    justify-content: center;
+    text-align: center;
+}
+.discount .discount-figure{
+    color: rgba(255, 0, 0, 1);
+    font-size: 88px;
+    font-weight: bold;
+}
+.discount .discount-subtitle{
+    color: rgba(255, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.discount .discount-title{
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgba(7, 2, 17, 1);
+}
+
+/* Party section Design */
+.party{
+    margin-top: 120px;
+    height: 720px;
+    width: 100%;
+    background-image: linear-gradient(270deg, rgba(7, 2, 17, 0), rgba(7, 2, 17, 1)), url("/images/Vectorrr.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    border-radius: 16px;
+}
+.party img{
+    margin: 70px 130px 70px 90px;
+}
+.party-content{
+    margin: 90px 0px 130px 130px;
+    padding: 40px;
+}
+.party-content .party-title{
+    font-size: 64px;
+    letter-spacing: 11px;
+    color: white;
+    width: 640px;
+}
+.party-content .party-description{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    width: 710px;
+    margin-bottom: 50px;
+}
+.party-content a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+/* Location section design */
+.location{
+    height: 550px;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.1));
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 120px;
+}
+.location .location-container{
+    padding: 100px 380px;
+}
+.location-container .location-detail{
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.location-container .join-location{
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    padding: 16px 32px;
+    margin: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* New Offer Section Design */
+.new-offer{
+    display: flex;
+    gap: 70px;
+    margin-top: 120px;
+    height: 500px;
+    align-items: center;
+}
+.new-offer .new-offer-column{
+    width: 30%;
+}
+.new-offer-column .new-offer-title{
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.new-offer-column .new-offer-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.new-offer-column .new-offer-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.new-offer-column .new-offer-image{
+    border-radius: 100%;
+    border: red solid 15px;
+    padding: 30px;
+}
+
+/* Holiday section Design */
+.holiday{
+    margin-top: 120px;
+    justify-content: center;
+    text-align: center;
+}
+.holiday .holiday-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.holiday .holiday-title{
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.holiday .holiday-description{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+    margin: 0px 300px;
+}
+.holiday .holiday-images{
+    margin-top: 50px;
+    background-image: url('/images/Rectangle 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    height: 660px;
+    align-items: start;
+    overflow: hidden;
+}
+
+/* Gift Section Design */
+.gift{
+    margin-top: 120px;
+}
+.gift .gift-title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.gift .gift-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.gift .gift-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 550px;
+}
+.gift .gift-image-row{
+    display: flex;
+    width: 100%;
+}
+.gift-image-row img{
+    margin: 10px;
+    height: 550px;
+}
+
+/* Subscribe Section Design */
+.subscribe{
+    margin-top: 120px;
+    padding: 80px 350px;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    border-radius: 16px;
+}
+.subscribe .subscription-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.subscribe .subscription-description{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+}
+.subscribe .subscribe-form{
+    display: flex;
+    display: inline;
+}
+.subscribe-form input[type="email"]{
+    color: rgba(7, 2, 17, 0.1);
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 0px;
+    border: none;
+    padding: 25px 400px 25px 25px;
+    border-radius: 999px 0 0 999px;
+}
+.subscribe-form button{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-left: 0px;
+    padding: 24px 56px;
+    border-radius: 0 999px 999px 0;
+}
+
+/* Footer Design */
+footer{
+    background-color: rgba(7, 2, 17, 1);
+    margin-top: 120px;
+    padding: 120px 270px 100px 140px;
+    background-color: rgba(7, 2, 17, 1);
+    color: white;
+    font-size: 24;
+    font-weight: 500;
+}
+footer .footer-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-detail p{
+    width: 350px;
+}
+.footer-detail .contacts h4{
+    display: flex;
+}
+footer .social-icons{
+    margin: 100px 0;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+footer .footmark{
+    display: flex;
+    justify-content: space-between;
+}
+.footmark a{
+    text-decoration: none;
+    color: white;
+}
